@@ -3,6 +3,9 @@ FROM python:3.8-slim
 ENV APP_HOME /app
 WORKDIR $APP_HOME
 
+RUN apt-get update \
+    && apt-get -y install git
+
 RUN pip install --upgrade pip
 RUN pip install pipenv
 COPY ./Pipfile .
