@@ -38,8 +38,8 @@ DEBUG = env("DEBUG")
 DATABASES = {"default": env.db()}
 
 INSTALLED_APPS += ["storages"] # for django-storages
-if "myproject" not in INSTALLED_APPS:
-     INSTALLED_APPS += ["myproject"] # for custom data migration
+if "core" not in INSTALLED_APPS:
+     INSTALLED_APPS += ["core"] # for custom data migration
 
 # Define static storage via django-storages[google]
 GS_BUCKET_NAME = env("GS_BUCKET_NAME")

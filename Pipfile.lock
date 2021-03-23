@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "89c0d68fbb1197a7259994a5fa0a38756a1bab4a5f5a10a4b91080ace0c71438"
+            "sha256": "fc6dc79c4b5005cdbbe4ddaeb6c98b76b1e6ba2cb19a12b474a2bbe3b9999874"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -64,12 +64,13 @@
             "version": "==0.4.5"
         },
         "django-storages": {
+            "editable": true,
+            "git": "https://github.com/jschneier/django-storages.git",
             "hashes": [
                 "sha256:c823dbf56c9e35b0999a13d7e05062b837bae36c518a40255d522fbe3750fbb4",
                 "sha256:f28765826d507a0309cfaa849bd084894bc71d81bf0d09479168d44785396f80"
             ],
-            "index": "pypi",
-            "version": "==1.11.1"
+            "ref": "770332b598712da27ecdba75c9e202ad6a1a8722"
         },
         "google-api-core": {
             "extras": [
