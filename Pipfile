@@ -10,9 +10,9 @@ psycopg2-binary = "2.8.5"
 google-cloud-secret-manager = "2.1.0"
 google-auth = "1.24.0"
 django-environ = "0.4.5"
-django-storages = {extras = ["google"], version = "1.9.1"}
+django-storages = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.8"
